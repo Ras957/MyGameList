@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyGameList</string>
+    <string name="action_opciones">Opciones</string>
+    <string name="action_ordenar">Ordenar</string>
+    <string name="action_about">Sobre MyGameList</string>
+    <string name="content_formulario_name">Nombre</string>
+    <string name="content_formulario_company">Desarroladora</string>
+    <string name="content_formulario_hours">horas</string>
+    <string name="content_formulario_date_format">dd/mm/aaaa</string>
+    <string name="content_formulario_plataform">Plataforma:</string>
+    <string name="content_formulario_own">En propiedad</string>
+    <string name="content_formulario_buttom_save">GUARDAR</string>
+    <string name="content_formulario_buttom_delete">BORRAR</string>
+    <string name="content_formulario_buttom_reset">RESETEAR</string>
+    <string name="title_activity_listado">ListadoActivity</string>
+    <string name="title_activity_formulario">FormularioActivity</string>
+    <string name="title_activity_buscar">BuscarActivity</string>
+</resources>

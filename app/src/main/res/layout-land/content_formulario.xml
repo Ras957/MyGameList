@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formularioActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="defaultPosition"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".views.FormularioActivity"
+    tools:showIn="@layout/activity_formulario">
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="209dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="DD/MM/AAAA"
+        android:inputType="date"
+        app:layout_constraintStart_toEndOf="@+id/fechaButtom"
+        app:layout_constraintTop_toBottomOf="@+id/NombreEditText" />
+
+    <EditText
+        android:id="@+id/DesarrolladoraText3"
+        android:layout_width="232dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="62dp"
+        android:ems="10"
+        android:hint="Desarrolladora"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/horasText2"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Duración(horas)"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreEditText" />
+
+    <EditText
+        android:id="@+id/NombreEditText"
+        android:layout_width="235dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerPlataforma"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DesarrolladoraText3" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="349dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="296dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imagenJuego"
+        android:layout_width="110dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="14dp"
+        android:contentDescription="imagen del juego"
+        app:layout_constraintBottom_toTopOf="@+id/NombreEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pokemon" />
+
+    <Switch
+        android:id="@+id/propiedadSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="124dp"
+        android:text="En propiedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPlataforma" />
+
+    <Button
+        android:id="@+id/fechaButtom"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="21dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="148dp"
+        android:src="@android:drawable/ic_menu_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="84dp"
+        android:src="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="151dp"
+        android:src="@android:drawable/ic_menu_myplaces"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintStart_toEndOf="@+id/NombreEditText"
+        app:layout_constraintTop_toBottomOf="@+id/imagenJuego" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
