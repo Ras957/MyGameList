@@ -1,13 +1,22 @@
 <resources>
     <string name="app_name">MyGameList</string>
+    <string name="activity_listado_name">Mis Juegos</string>
+    <string name="activity_formulario_name">Nuevo Juego</string>
+    <string name="activity_buscar_name">Buscar Juego</string>
+    <string name="activity_sobre_name">Sobre la App</string>
     <string name="action_opciones">Opciones</string>
     <string name="action_ordenar">Ordenar</string>
     <string name="action_about">Sobre MyGameList</string>
+    <string name="action_help">Ayuda</string>
+    <string name="content_formulario_image_description">Añade una imagen</string>
     <string name="content_formulario_name">Nombre</string>
     <string name="content_formulario_company">Desarroladora</string>
+    <string name="content_formulario_cero">0</string>
     <string name="content_formulario_hours">horas</string>
     <string name="content_formulario_date_format">dd/mm/aaaa</string>
+    <string name="content_formulario_date_description">Añade una fecha</string>
     <string name="content_formulario_plataform">Plataforma:</string>
+    <string name="content_formulario_add_plataform">+</string>
     <string name="content_formulario_own">En propiedad</string>
     <string name="content_formulario_buttom_save">GUARDAR</string>
     <string name="content_formulario_buttom_delete">BORRAR</string>
@@ -15,4 +24,15 @@
     <string name="title_activity_listado">ListadoActivity</string>
     <string name="title_activity_formulario">FormularioActivity</string>
     <string name="title_activity_buscar">BuscarActivity</string>
+    <string name="content_buscar_buttom_search">BUSCAR</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="content_sobre_logo_description">MyGameList Logo</string>
+    <string name="content_sobre_name_app">MyGameList</string>
+    <string name="content_sobre_name">Nombre: </string>
+    <string name="content_sobre_nombre">Francisco Miguel Carrasquilla Rodríguez-Córdoba</string>
+    <string name="content_sobre_contact">Contacto: </string>
+    <string name="content_sobre_correo">afcarrasquilla@iesfranciscodelosrios.es</string>
+    <string name="row_data_image_description">Imagen de la portada</string>
+    <string name="row_data_delete">ELIMINAR</string>
+    <string name="title_activity_ayuda">AyudaActivity</string>
 </resources>

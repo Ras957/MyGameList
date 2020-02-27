@@ -24,4 +24,6 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.afcarrasquilla.mygamelist", appContext.getPackageName());
     }
+
+
 }
