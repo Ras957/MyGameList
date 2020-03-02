@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar>\n    <ion-title>actualizar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n";
+    __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-title class=\"ion-text-center\">Actualizar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"ion-padding\">\n\n  <ion-list>\n\n  <ion-item-group class=\"group\">\n    <ion-text>\n      Eliga el juego que quiere editar en el listado y cambie los campos que quiera, \n      siempre que los datos sigan en los estándares correctos.\n    </ion-text>\n    <ion-item><img src=\"../../assets/images/editar.png\"/></ion-item>\n  </ion-item-group>\n\n  <ion-item-group class=\"group\">\n    <ion-text>\n      Al cambiar los campos correctamente pulse el botón MODIFICAR.\n    </ion-text>\n    <ion-item><img src=\"../../assets/images/modificar.png\"/></ion-item>\n  </ion-item-group>\n\n</ion-list>\n\n</ion-content>\n";
     /***/
   },
 
@@ -174,7 +174,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvcm11bGFyaW8vYWN0dWFsaXphci9hY3R1YWxpemFyLnBhZ2Uuc2NzcyJ9 */";
+    __webpack_exports__["default"] = ".group {\n  padding: 5px;\n  margin-top: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9ybXVsYXJpby9hY3R1YWxpemFyL0M6XFxVc2Vyc1xcVXN1YXJpb1xcR29vZ2xlIERyaXZlXFxGUENTMlxcREVJTlxcREVJTi1tYXN0ZXJcXE15R2FtZUxpc3QyXFxkb2NzL3NyY1xcYXBwXFxmb3JtdWxhcmlvXFxhY3R1YWxpemFyXFxhY3R1YWxpemFyLnBhZ2Uuc2NzcyIsInNyYy9hcHAvZm9ybXVsYXJpby9hY3R1YWxpemFyL2FjdHVhbGl6YXIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtFQUNBLGVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2Zvcm11bGFyaW8vYWN0dWFsaXphci9hY3R1YWxpemFyLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ncm91cHtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDhweDtcclxufSIsIi5ncm91cCB7XG4gIHBhZGRpbmc6IDVweDtcbiAgbWFyZ2luLXRvcDogOHB4O1xufSJdfQ== */";
     /***/
   },
 

@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar>\n    <ion-title>eliminar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-title class=\"ion-text-center\">Eliminar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"ion-padding\">\n\n<ion-list>\n\n  <ion-item-group class=\"group\">\n    <ion-text>\n      Eliga el juego que quiere eliminar en el listado y baje hasta el botón BORRAR.\n    </ion-text>\n    <ion-item><img src=\"../../assets/images/borrar.png\"/></ion-item>\n  </ion-item-group>\n\n</ion-list>\n\n</ion-content>\n");
 
 /***/ }),
 
@@ -101,7 +101,7 @@ EliminarPageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvcm11bGFyaW8vZWxpbWluYXIvZWxpbWluYXIucGFnZS5zY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".group {\n  padding: 5px;\n  margin-top: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9ybXVsYXJpby9lbGltaW5hci9DOlxcVXNlcnNcXFVzdWFyaW9cXEdvb2dsZSBEcml2ZVxcRlBDUzJcXERFSU5cXERFSU4tbWFzdGVyXFxNeUdhbWVMaXN0MlxcZG9jcy9zcmNcXGFwcFxcZm9ybXVsYXJpb1xcZWxpbWluYXJcXGVsaW1pbmFyLnBhZ2Uuc2NzcyIsInNyYy9hcHAvZm9ybXVsYXJpby9lbGltaW5hci9lbGltaW5hci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvZm9ybXVsYXJpby9lbGltaW5hci9lbGltaW5hci5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZ3JvdXB7XHJcbiAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiA4cHg7XHJcbn0iLCIuZ3JvdXAge1xuICBwYWRkaW5nOiA1cHg7XG4gIG1hcmdpbi10b3A6IDhweDtcbn0iXX0= */");
 
 /***/ }),
 

@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-title class=\"ion-text-center\">Insertar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-group>\n      <ion-text>\n        Para insertar un juego debe de rellenar los siguientes campos correctamente.\n      </ion-text>\n      <ion-item><img src=\"../../assets/images/inserter.png\"/></ion-item>\n    </ion-item-group>\n\n  </ion-list>\n\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-title class=\"ion-text-center\">Insertar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"ion-padding\">\n\n  <ion-list>\n\n    <ion-item-group class=\"group\">\n      <ion-text>\n        Para insertar un juego debe de rellenar los siguientes campos correctamente.\n      </ion-text>\n      <ion-item><img src=\"../../assets/images/insertar.png\"/></ion-item>\n      <ion-text>\n        1.- Imagen: campo no obligatorio.<br>\n        2.- Nombre: campo obligatorio entre 3 y 100 caráteres.<br>\n        3.- Desarrolladora: campo obligatorio entre 1 y 9999.<br>\n        3.- Horas de juego: ir a la ayuda según la actividad en la que está.<br>\n        4.- Fecha de salida: campo obligatorio con formato DD/MM/AAAA<br>\n        5.- Plataforma: campo obligatorio, puede elegir entre las opciones o añadir una<br>\n        6.- Propiedad: campo no obligatorio<br>\n      </ion-text>\n    </ion-item-group>\n\n    <ion-item-group class=\"group\">\n      <ion-text>\n        Al rellenar los campos correctamente pulse el botón GUARDAR.\n      </ion-text>\n      <ion-item><img src=\"../../assets/images/guardar.png\"/></ion-item>\n    </ion-item-group>\n\n  </ion-list>\n\n</ion-content>\n");
 
 /***/ }),
 
@@ -101,7 +101,7 @@ InsertarPageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvcm11bGFyaW8vaW5zZXJ0YXIvaW5zZXJ0YXIucGFnZS5zY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".group {\n  padding: 5px;\n  margin-top: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9ybXVsYXJpby9pbnNlcnRhci9DOlxcVXNlcnNcXFVzdWFyaW9cXEdvb2dsZSBEcml2ZVxcRlBDUzJcXERFSU5cXERFSU4tbWFzdGVyXFxNeUdhbWVMaXN0MlxcZG9jcy9zcmNcXGFwcFxcZm9ybXVsYXJpb1xcaW5zZXJ0YXJcXGluc2VydGFyLnBhZ2Uuc2NzcyIsInNyYy9hcHAvZm9ybXVsYXJpby9pbnNlcnRhci9pbnNlcnRhci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvZm9ybXVsYXJpby9pbnNlcnRhci9pbnNlcnRhci5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZ3JvdXB7XHJcbiAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiA4cHg7XHJcbn0iLCIuZ3JvdXAge1xuICBwYWRkaW5nOiA1cHg7XG4gIG1hcmdpbi10b3A6IDhweDtcbn0iXX0= */");
 
 /***/ }),
 
