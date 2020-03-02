@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-title class=\"ion-text-center\">Eliminar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"ion-padding\">\n\n<ion-list>\n\n  <ion-item-group class=\"group\">\n    <ion-text>\n      Eliga el juego que quiere eliminar en el listado y baje hasta el botón BORRAR.\n    </ion-text>\n    <ion-item><img src=\"../../assets/images/borrar.png\"/></ion-item>\n  </ion-item-group>\n\n</ion-list>\n\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar color=\"light\">\n    <ion-buttons slot=\"start\">\n      <ion-back-button text=\"Regresar\" defaultHref=\"home\"></ion-back-button>\n    </ion-buttons>\n    <ion-title class=\"ion-text-center\">Eliminar</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"ion-padding\">\n\n<ion-list>\n\n  <ion-item-group class=\"group\">\n    <ion-text>\n      Eliga el juego que quiere eliminar en el listado y baje hasta el botón BORRAR.\n    </ion-text>\n    <ion-item><img src=\"../../assets/images/borrar.png\"/></ion-item>\n  </ion-item-group>\n\n</ion-list>\n\n</ion-content>\n");
 
 /***/ }),
 
