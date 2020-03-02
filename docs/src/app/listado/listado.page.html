@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title class="ion-text-center">Listado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-item-group class="group">
+      <ion-item>
+        <ion-text> En la actividad listado se muestra información breve de 
+              los juegos añadidos a MyGameList.
+        </ion-text>
+      </ion-item>
+      <ion-item>
+        <img src="../../assets/images/listado.png"/>
+      </ion-item>
+    </ion-item-group>
+
+
+  <ion-item-group class="group">
+    <ion-text> Con el botón flotante podrás añadir nuevos juegos a la lista.</ion-text>
+    <ion-item><img src="../../assets/images/boton_flotante.png"/></ion-item> 
+  </ion-item-group>
+
+  <ion-item-group class="group">
+    <ion-text> Con el botón buscar podrás usar el filtro para buscar el juego deseado.</ion-text>
+    <ion-item><img src="../../assets/images/boton_buscar.png"/></ion-item> 
+    <ion-label><i>Para más información ir al manual de 
+      <span class="link" routerLink="/buscar">buscar</span></i></ion-label>
+  </ion-item-group>
+
+  <ion-item-group class="group">
+    <ion-text> En el submenú podrás encontrar otras funciones como ordenar 
+      o ir a otras páginas como la ayuda o "sobre la app".</ion-text>
+    <ion-item><img src="../../assets/images/submenu1.png"/>
+    <img src="../../assets/images/submenu2.png"/></ion-item> 
+    <ion-text>
+      1.- Ordenar: ordena la lista de juegos según el parámetro indicado (todavía no implementado)<br>
+      2.- Sobre MyGameList: ir a sobreActivity<br>
+      3.- Ayuda: ir a la ayuda según la actividad en la que está.<br>
+      4.- Opciones: opciones sobre la App (todavía no implementado)<br>
+    </ion-text>
+  </ion-item-group>
+
+  </ion-list>
+
+</ion-content>
